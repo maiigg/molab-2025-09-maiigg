@@ -1,3 +1,4 @@
+- [hwomework wiki](https://github.com/molab-itp/content-2025-09/wiki/03%E2%80%90maiigg)
 # molab-2025-09-maiigg
 
 //100 days of swift log: 
