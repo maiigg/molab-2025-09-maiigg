@@ -60,9 +60,7 @@ let image = renderer.image { (context) in
         }
        
             
-        
     }
-    
     
     //fence
     fenceColor.setFill()
