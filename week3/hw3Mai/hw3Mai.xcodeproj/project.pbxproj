@@ -27,6 +27,7 @@
 		9CB4F9032E8606F200DC3138 /* hw3Mai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw3Mai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB4F9102E8606F500DC3138 /* hw3MaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hw3MaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB4F91A2E8606F500DC3138 /* hw3MaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hw3MaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6153E82E86B8E2002CE525 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		9CB4F8FA2E8606F200DC3138 = {
 			isa = PBXGroup;
 			children = (
+				AB6153E82E86B8E2002CE525 /* README.md */,
 				9CB4F9052E8606F200DC3138 /* hw3Mai */,
 				9CB4F9132E8606F500DC3138 /* hw3MaiTests */,
 				9CB4F91D2E8606F500DC3138 /* hw3MaiUITests */,
