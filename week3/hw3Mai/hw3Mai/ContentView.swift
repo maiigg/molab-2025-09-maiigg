@@ -38,7 +38,7 @@ struct EmojiRainView: View {
                 context.draw(text, at: CGPoint(x: item.x, y: item.y)) //will refer to emoji creation below
             }
         }
-        .onReceive(timer) { _ in
+        .onReceive(timer) { _ in  //also from hackingWithSwift article above
             //adds new random emojis from emojis array
             if Bool.random() {
                 let newEmoji = EmojiData(
