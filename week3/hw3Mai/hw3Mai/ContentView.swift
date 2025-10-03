@@ -45,7 +45,7 @@ struct EmojiRainView: View {
                     emoji: emojis.randomElement()!,
                     x: CGFloat.random(in: 0..<400),
                     y: -50,
-                    speed: CGFloat.random(in: 2...6)
+                    speed: CGFloat.random(in: 2...3)
                 )
                 items.append(newEmoji)
             }
