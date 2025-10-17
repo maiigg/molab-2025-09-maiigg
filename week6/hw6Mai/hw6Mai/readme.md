@@ -1,5 +1,12 @@
 #  <#Title#>
 
+
+BASIC INFO: 
+
+WRITE "guest" IN USERNAME WITH NO PASSWORD TO SIGN IN AS A GUEST, MAKE AN ACCOUNT, OR DO "mai" as username and "123" as password to enter as an admin
+ 
+
+
 https://www.hackingwithswift.com/read/7/3/parsing-json-using-the-codable-protocol 
 source I used to help myself understand it a little mopre
 
