@@ -51,7 +51,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                 Text("Please Login or Sign Up")
                     .padding(10)
-                Text("Write Guest in Username to Be a Guest")
+                Text("Write guest in Username to Be a Guest")
                     .padding(30)
                 
                 Text("Username")
