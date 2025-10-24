@@ -1,3 +1,6 @@
+//  Edit.swift
+//  hw7Mai
+//
 
 import SwiftUI
 import CoreImage

@@ -2,7 +2,7 @@
 //  hw7MaiApp.swift
 //  hw7Mai
 //
-//  Created by Karen Gourlay on 2025/10/22.
+//  Created by mai Gourlay on 2025/10/22.
 //
 
 import SwiftUI
