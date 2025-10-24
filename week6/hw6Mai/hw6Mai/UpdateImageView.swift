@@ -66,6 +66,7 @@ struct UpdateImageView: View {
                     .textInputAutocapitalization(.never)
                 TextField("year",text: $item.year)
                     .textInputAutocapitalization(.never)
+                //numeric input alternative 
             }
         }
         .task {
