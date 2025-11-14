@@ -49,8 +49,8 @@ struct MakeItSoApp: App {
   var body: some Scene {
     WindowGroup {
       NavigationStack {
-   //     RemindersListView()
-       //   .navigationTitle("Reminders")
+        RemindersListView()
+          .navigationTitle("Reminders")
       }
     }
   }
