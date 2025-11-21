@@ -16,6 +16,7 @@ struct ArchiveGridView: View {
         ]
     var body: some View {
         ScrollView {
+            //based this off of my hw8 where I did the same grid system, except utilised new thing called AsyncImage which is for URL's instead of the given CGImages in that one 
             LazyVGrid(columns: columns, spacing: 8) {
                 ForEach(document.object.objects) { item in
                     NavigationLink(destination: UpdateImageView(item: item)) {
