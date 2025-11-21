@@ -11,10 +11,11 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var selectedTab = 0
+    @EnvironmentObject var document: Document
     
     
     var body: some View {
-        let bubbleGumPink = Color(red: 9.9, green: 0.7, blue: 0.9)
+        //let bubbleGumPink = Color(red: 9.9, green: 0.7, blue: 0.9)
         TabView(selection: $selectedTab){
             NavigationStack {
                 
@@ -35,6 +36,14 @@ struct ContentView: View {
                 Image(systemName: "house")
             }
             .tag(0)
+            NavigationStack {
+                ArchiveGridView()
+            }
+            .tabItem {
+                Image(systemName: "archivebox")
+                Text("Archive")
+            }
+            .tag(1)
         }
         }
 
@@ -45,4 +54,5 @@ struct ContentView: View {
    
 #Preview {
     ContentView()
+        .environmentObject(Document())
 }

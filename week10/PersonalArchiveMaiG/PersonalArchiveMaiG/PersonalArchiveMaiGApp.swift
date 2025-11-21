@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct PersonalArchiveMaiGApp: App {
+    @StateObject var document = Document()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(document)
         }
     }
 }
