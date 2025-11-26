@@ -7,7 +7,7 @@ import SwiftUI
 internal import Combine
 
 let imageArray = ["https://www.theperfectpuppyri.com/media/ap_media/MEXOFWYIALDC.jpg","https://slatercreekgoldenretrievers.com/wp-content/uploads/2023/03/127819769_m_normal_none.jpg"]
-
+//from testing, ignore 
 
 class Document: ObservableObject{
     @Published var object: ItemInfos

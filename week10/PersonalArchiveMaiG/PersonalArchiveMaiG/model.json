@@ -6,7 +6,7 @@
       "title": "Robe à l'anglaise",
       "garmentType": "gown",
       "origin": "France",
-      "decade": 1770,
+      "decade": 1775,
       "colours": ["coral", "white"],
       "materials": ["silk", "lace"],
       "optExtraInfo": [""]
@@ -43,6 +43,18 @@
       "colours": ["red"],
       "materials": ["silk"],
       "optExtraInfo": ["Specific Material: silk damask"]
+    },
+    
+    {
+      "url": "https://www.kci.or.jp/archives/digital_archives/photos/92_xl_AC09712.jpg",
+      "webURL": "",
+      "title": "Dinner Gown",
+      "garmentType": "gown",
+      "origin": "France",
+      "decade": 1883,
+      "colours": ["red"],
+      "materials": ["silk", "lace"],
+      "optExtraInfo": ["Charles-Frederick Worth", "Silk Satin and Velvet"]
     }
   ]
 }

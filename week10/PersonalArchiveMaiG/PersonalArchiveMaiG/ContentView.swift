@@ -44,6 +44,13 @@ struct ContentView: View {
                 Text("Archive")
             }
             .tag(1)
+            NavigationStack {
+                SearchView()
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Search")
+            }
         }
         }
 
