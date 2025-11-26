@@ -14,41 +14,6 @@ struct ItemInfo: Identifiable, Codable {
     var materials:[String] = []
     var optExtraInfo: [String] = []
     
-    init(
-            id: UUID = UUID(),
-            url: String = "",
-            webURL: String = "",
-            title: String = "",
-            garmentType: String = "",
-            origin: String = "",
-            decade: Int = 0,
-            colours: [String] = [],
-            materials: [String] = [],
-            optExtraInfo: [String] = []
-        ) {
-            self.id = id
-            self.url = url
-            self.webURL = webURL
-            self.title = title
-            self.garmentType = garmentType
-            self.origin = origin
-            self.decade = decade
-            self.colours = colours
-            self.materials = materials
-            self.optExtraInfo = optExtraInfo
-        }
-    init(from decoder: Decoder) throws {
-            let container = try decoder.container(keyedBy: CodingKeys.self)
-            id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
-            url = try container.decodeIfPresent(String.self, forKey: .url) ?? ""
-            webURL = try container.decodeIfPresent(String.self, forKey: .webURL) ?? ""
-            title = try container.decodeIfPresent(String.self, forKey: .title) ?? ""
-            garmentType = try container.decodeIfPresent(String.self, forKey: .garmentType) ?? ""
-            origin = try container.decodeIfPresent(String.self, forKey: .origin) ?? ""
-            decade = try container.decodeIfPresent(Int.self, forKey: .decade) ?? 0
-            colours = try container.decodeIfPresent([String].self, forKey: .colours) ?? []
-            materials = try container.decodeIfPresent([String].self, forKey: .materials) ?? []
-            optExtraInfo = try container.decodeIfPresent([String].self, forKey: .optExtraInfo) ?? []
-        }
+        
     
 }

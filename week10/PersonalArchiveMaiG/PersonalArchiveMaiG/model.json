@@ -55,6 +55,17 @@
       "colours": ["red"],
       "materials": ["silk", "lace"],
       "optExtraInfo": ["Charles-Frederick Worth", "Silk Satin and Velvet"]
+    },
+    {
+      "url": "https://www.artic.edu/iiif/2/b7a41ddb-bf31-fea5-0869-911d2d8776c3/full/843,/0/default.jpg",
+      "webURL": "",
+      "title": "Evening Dress",
+      "garmentType": "gown",
+      "origin": "France",
+      "decade": 1955,
+      "colours": ["red"],
+      "materials": ["silk"],
+      "optExtraInfo": ["Christian Dior"]
     }
   ]
 }

@@ -21,6 +21,7 @@ struct ArchiveGridView: View {
                 ForEach(document.object.objects) { item in
                     NavigationLink(destination: UpdateImageView(item: item)) {
                         VStack {
+                            // generalise to support both url and camera roll id
                             AsyncImage(url: URL(string: item.url)) { image in
                                 image
                                     .resizable()
