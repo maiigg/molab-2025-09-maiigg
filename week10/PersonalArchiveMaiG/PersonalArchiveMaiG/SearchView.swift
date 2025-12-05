@@ -54,7 +54,8 @@ struct SearchView: View {
         document.object.objects.filter { item in
             //checks to see if ANYTHING (why it is all OR operators) matches
             let matchesText = query.isEmpty ||
-                item.garmentType.contains(query) ||
+                item.garmentType.localizedCaseInsensitiveContains(query) ||
+                item.title.localizedCaseInsensitiveContains(query) ||
                 //cause theyre arrays they need to be joined/split to check each one
                 item.materials.joined(separator: " ").localizedCaseInsensitiveContains(query) ||
                 item.colours.joined(separator: " ").localizedCaseInsensitiveContains(query)
@@ -72,14 +73,14 @@ struct SearchView: View {
             //search bar
             TextField("Search by type, material, colour...", text: $query)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
+               // .padding()
             Picker("Decade", selection: $selectedDecade) {
-                  Text("All").tag(nil as Int?)
+                  Text("All Decades...").tag(nil as Int?)
                   ForEach(decades, id: \.self) { decade in
                       Text("\(String(decade))s") .tag(Optional(decade))
                   }
               }
-              .pickerStyle(.segmented)
+              .pickerStyle(WheelPickerStyle())
               .padding(.horizontal)
             
             ScrollView {

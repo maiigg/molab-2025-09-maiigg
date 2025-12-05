@@ -12,6 +12,28 @@
       "optExtraInfo": [""]
     },
     {
+      "url": "https://www.datocms-assets.com/103094/1701175339-ta5783-1.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+      "webURL": "",
+      "title": "Wedding dress",
+      "garmentType": "gown",
+      "origin": "Italy",
+      "decade": 1887,
+      "colours": ["ivory", "white"],
+      "materials": ["silk", "lace"],
+      "optExtraInfo": ["Pitti Palace","Gros de Tours moiré in ivory silk"," two-layer crushed velvet with patterns in ivory silk"," machine-made lace"]
+    },
+    {
+      "url": "https://www.datocms-assets.com/103094/1721732796-ta-5797-b.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.25&max-w=160000%20721w,https://www.datocms-assets.com/103094/1721732796-ta-5797-b.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.5&max-w=320000%201442w,https://www.datocms-assets.com/103094/1721732796-ta-5797-b.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.75&max-w=480000%202163w,https://www.datocms-assets.com/103094/1721732796-ta-5797-b.jpg?auto=format%2Ccompress&cs=srgb&max-w=800%202885w",
+      "webURL": "",
+      "title": "Gown",
+      "garmentType": "gown",
+      "origin": "France",
+      "decade": 1826,
+      "colours": ["red", "yellow"],
+      "materials": ["silk"],
+      "optExtraInfo": ["Silk Taffeta", "Pitti Palace"]
+    },
+    {
       "url": "https://fashionhistory.fitnyc.edu/wp-content/uploads/2023/01/The-Underpinnings-Museum-Photography-By-Tigz-Rice-66-of-757-683x1024-1.jpg",
       "webURL": "",
       "title": "Straight-front corset",
@@ -55,6 +77,39 @@
       "colours": ["red"],
       "materials": ["silk", "lace"],
       "optExtraInfo": ["Charles-Frederick Worth", "Silk Satin and Velvet"]
+    },
+    {
+      "url": "https://www.datocms-assets.com/103094/1721744978-ta-11929-12141-a.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.25&max-w=160000%20688w,https://www.datocms-assets.com/103094/1721744978-ta-11929-12141-a.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.5&max-w=320000%201376w,https://www.datocms-assets.com/103094/1721744978-ta-11929-12141-a.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.75&max-w=480000%202064w,https://www.datocms-assets.com/103094/1721744978-ta-11929-12141-a.jpg?auto=format%2Ccompress&cs=srgb&max-w=800%202752w",
+      "webURL": "",
+      "title": "Gown",
+      "garmentType": "gown",
+      "origin": "Italy",
+      "decade": 1795,
+      "colours": ["ivory", "white"],
+      "materials": ["cotton", "tulle", "silk"],
+      "optExtraInfo": ["Pitti Palace"]
+    },
+    {
+      "url": "https://www.datocms-assets.com/103094/1688660597-1503912014898369-19d02cf62cfa77bf4bb4cf12967a84b8-regency-sew.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+      "webURL": "",
+      "title": "Evening Gown",
+      "garmentType": "gown",
+      "origin": "Italy",
+      "decade": 1906,
+      "colours": ["gold", "beige"],
+      "materials": ["silk", "tulle"],
+      "optExtraInfo": ["Pitti Palace"]
+    },
+    {
+      "url": "https://www.datocms-assets.com/103094/1721653752-ta-1873.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.25&max-w=160000%20688w,https://www.datocms-assets.com/103094/1721653752-ta-1873.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.5&max-w=320000%201376w,https://www.datocms-assets.com/103094/1721653752-ta-1873.jpg?auto=format%2Ccompress&cs=srgb&dpr=0.75&max-w=480000%202064w,https://www.datocms-assets.com/103094/1721653752-ta-1873.jpg?auto=format%2Ccompress&cs=srgb&max-w=800%202752w",
+      "webURL": "",
+      "title": "Gown",
+      "garmentType": "gown",
+      "origin": "Italy",
+      "decade": 1807,
+      "colours": ["silver", "ivory"],
+      "materials": ["silk","lace"],
+      "optExtraInfo": ["Pitti Palace", "silk crêpe"]
     },
     {
       "url": "https://www.artic.edu/iiif/2/b7a41ddb-bf31-fea5-0869-911d2d8776c3/full/843,/0/default.jpg",

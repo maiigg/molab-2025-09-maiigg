@@ -18,14 +18,14 @@ extension ItemInfos {
            objects = []
 
            do {
-               self = try loadJSON(ItemInfos.self, fileName: fileName)
+               self = try loadJSON(ItemInfos.self, fileName: "model")
            } catch {
                print("Could not load from Documents, trying bundle... Error: \(error)")
 
                let name = (fileName as NSString).deletingPathExtension
                let ext = (fileName as NSString).pathExtension
 
-               if let bundleURL = Bundle.main.url(forResource: name, withExtension: ext) {
+               if let bundleURL = Bundle.main.url(forResource: name, withExtension: "json") {
                    do {
                        let data = try Data(contentsOf: bundleURL)
                        let decoded = try JSONDecoder().decode(ItemInfos.self, from: data)
@@ -43,3 +43,5 @@ extension ItemInfos {
        }
    }
     
+
+

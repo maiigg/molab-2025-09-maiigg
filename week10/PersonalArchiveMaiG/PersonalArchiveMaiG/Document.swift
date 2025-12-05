@@ -22,7 +22,7 @@ class Document: ObservableObject{
         object = ItemInfos(JSONfileName: saveFileName);
         
         if initSampleItems && object.objects.isEmpty {
-            // items for testing
+            //items for testing
             object.objects = []
        }
     }

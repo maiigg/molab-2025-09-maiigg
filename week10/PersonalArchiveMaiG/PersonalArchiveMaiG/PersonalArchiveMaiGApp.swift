@@ -2,7 +2,7 @@
 //  PersonalArchiveMaiGApp.swift
 //  PersonalArchiveMaiG
 //
-//  Created by Karen Gourlay on 2025/11/14.
+//  Created by Mai Gourlay on 2025/11/14.
 //
 
 import SwiftUI

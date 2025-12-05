@@ -23,6 +23,7 @@
 		9CDC9CB32ED0154200FC0205 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CDC9CB22ED0154200FC0205 /* model.json */; };
 		9CDC9CB52ED01F7200FC0205 /* ArchiveGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC9CB42ED01F6D00FC0205 /* ArchiveGridView.swift */; };
 		9CDC9CB72ED4DA5200FC0205 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC9CB62ED4DA4D00FC0205 /* SearchView.swift */; };
+		9CDC9CB92ED74FAA00FC0205 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC9CB82ED74FA700FC0205 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9CDC9CB22ED0154200FC0205 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 		9CDC9CB42ED01F6D00FC0205 /* ArchiveGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveGridView.swift; sourceTree = "<group>"; };
 		9CDC9CB62ED4DA4D00FC0205 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9CDC9CB82ED74FA700FC0205 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +93,12 @@
 				9CDC9C932ED0026B00FC0205 /* ContentView.swift */,
 				9CDC9CB42ED01F6D00FC0205 /* ArchiveGridView.swift */,
 				9CDC9CB62ED4DA4D00FC0205 /* SearchView.swift */,
+				9CDC9CB82ED74FA700FC0205 /* AddItemView.swift */,
+				9CDC9C9C2ED0026B00FC0205 /* UpdateItemView.swift */,
 				9CDC9C962ED0026B00FC0205 /* ItemInfo.swift */,
 				9CDC9C972ED0026B00FC0205 /* ItemInfos.swift */,
 				9CDC9C982ED0026B00FC0205 /* ItemJSON.swift */,
 				9CDC9C942ED0026B00FC0205 /* Document.swift */,
-				9CDC9C9C2ED0026B00FC0205 /* UpdateItemView.swift */,
 				9CDC9C9B2ED0026B00FC0205 /* SaveLoadJSON.swift */,
 				9CDC9C952ED0026B00FC0205 /* Image.swift */,
 			);
@@ -185,6 +188,7 @@
 				9CDC9CA62ED0026B00FC0205 /* ItemInfos.swift in Sources */,
 				9CDC9CA72ED0026B00FC0205 /* ItemJSON.swift in Sources */,
 				9CDC9CB52ED01F7200FC0205 /* ArchiveGridView.swift in Sources */,
+				9CDC9CB92ED74FAA00FC0205 /* AddItemView.swift in Sources */,
 				9CDC9CA92ED0026B00FC0205 /* PersonalArchiveMaiGApp.swift in Sources */,
 				9CDC9CAA2ED0026B00FC0205 /* SaveLoadJSON.swift in Sources */,
 				9CDC9CAB2ED0026B00FC0205 /* UpdateItemView.swift in Sources */,

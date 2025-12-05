@@ -21,19 +21,11 @@ struct ArchiveGridView: View {
                 ForEach(document.object.objects) { item in
                     NavigationLink(destination: UpdateImageView(item: item)) {
                         VStack {
-                            // generalise to support both url and camera roll id
-                            AsyncImage(url: URL(string: item.url)) { image in
-                                image
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(height: 150)
-                                    .clipped()
-                                    .cornerRadius(8)
-                                }placeholder: {
-                                    Color.gray
-                                        .frame(height: 100)
-                                        .cornerRadius(8)
-                                }
+                            // generalised to support both url and camera roll id
+                            //since the mobile doesnt have the same format as the JSON image URLS
+                            AsyncThumbnail(url: item.url)
+                                .frame(height: 150)
+                                .cornerRadius(8)
                             Text(item.title)
                                 .font(.caption)
                                 .foregroundColor(.primary)

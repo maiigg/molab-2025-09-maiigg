@@ -27,7 +27,7 @@ struct UpdateImageView: View {
                     .scaledToFit()
                     .frame(height: 300)
                     .cornerRadius(12)
-                    .shadow(radius: 5)
+               
             }
             Text(item.title.capitalized)
                 .font(.title2)
@@ -66,13 +66,6 @@ struct UpdateImageView: View {
             }
 
         HStack {
-            Button("Update") {
-                    print("UpdateImageView Update")
-                    document.updateItem(item: item)
-                    dismiss()
-                
-            }
-            Spacer()
             Button("Delete") {
                 
                     document.deleteItem(id: item.id)

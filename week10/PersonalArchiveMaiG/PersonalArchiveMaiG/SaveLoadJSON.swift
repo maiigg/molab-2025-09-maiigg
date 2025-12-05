@@ -42,11 +42,11 @@ func loadJSON<T :Decodable>(_ type: T.Type, fileName: String) throws -> T {
         return try JSONDecoder().decode(type, from: data)
     
     }
-    if let bundleURL = Bundle.main.url(forResource: fileName, withExtension: nil) {
-            print("Loading JSON from Bundle: \(bundleURL.path)")
-            let data = try Data(contentsOf: bundleURL)
-            return try JSONDecoder().decode(type, from: data)
-        }
+    if let bundleURL = Bundle.main.url(forResource: fileName, withExtension: "json") {
+        print("Loading JSON from Bundle: \(bundleURL.path)")
+        let data = try Data(contentsOf: bundleURL)
+        return try JSONDecoder().decode(type, from: data)
+    }
     print("Could not find \(fileName) in bundle or documents.")
     throw FileError.missing
 }
